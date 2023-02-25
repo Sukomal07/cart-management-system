@@ -1,0 +1,15 @@
+@import './colors.scss';
+@import './header.scss';
+@import './cart.scss';
+@import './home.scss';
+@import './mediaQuery.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: $primary;
+    color: $white;
+}
